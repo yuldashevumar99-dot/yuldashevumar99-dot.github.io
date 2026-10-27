@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umar Yuldashev — Product engineer</title>
+  <meta name="description" content="Umar Yuldashev, product engineer in Tashkent. Two apps selling on the Microsoft Store, a studio website, Telegram bots and a security training lab — built and shipped end to end.">
+  <meta property="og:title" content="Umar Yuldashev — Product engineer">
+  <meta property="og:description" content="Software taken from an empty folder to something people use and pay for.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yuldashevumar99-dot.github.io/">
+  <meta name="theme-color" content="#EEF1F3">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,400..900&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Martian+Mono:wdth,wght@75..112.5,400..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work" data-i18n="skip">Skip to work</a>
+
+  <header class="top">
+    <a class="mark" href="#top" aria-label="Umar Yuldashev, back to top">UY</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#resume" data-i18n="nav.resume">Resume</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="uz" aria-pressed="false">UZ</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Product engineer · Tashkent · Remote</p>
+      <h1 class="name"><span>Umar</span> <span>Yuldashev</span></h1>
+
+      <div class="hero-body">
+        <div class="pitch">
+          <p class="lede" data-i18n="hero.lede">I take software from an empty folder to something people use and pay for: packaged, certified, priced and live. Two apps selling on the Microsoft Store, a studio website, and Telegram bots in production.</p>
+          <div class="actions">
+            <a class="btn btn-solid" href="mailto:yuldashevumar99@gmail.com" data-i18n="hero.email">Email me</a>
+            <a class="btn" href="#resume" data-i18n="hero.resume">Read my resume</a>
+          </div>
+        </div>
+
+        <figure class="log" aria-labelledby="log-title">
+          <figcaption class="log-head">
+            <span id="log-title" data-i18n="log.title">Ship log</span>
+            <span data-i18n="log.sub">Newest first</span>
+          </figcaption>
+          <ol class="log-rows">
+            <li>
+              <time datetime="2026-10-10">2026-10-10</time>
+              <span class="what"><b>Channel Planner</b> <span data-i18n="log.navbat">Guided setup rebuilt after a phone test with the founder</span></span>
+              <span class="stamp is-testing" data-i18n="st.testing">Testing</span>
+            </li>
+            <li>
+              <time datetime="2026-09-12">2026-09-12</time>
+              <span class="what"><b>Imlo bot</b> <span data-i18n="log.imlo">Uzbek spelling checker goes live on Telegram</span></span>
+              <span class="stamp is-live" data-i18n="st.live">Live</span>
+            </li>
+            <li>
+              <time datetime="2026-09-10">2026-09-10</time>
+              <span class="what"><b>Meridian</b> <span data-i18n="log.meridian">Full attack chain solved by an automated script</span></span>
+              <span class="stamp is-done" data-i18n="st.verified">Verified</span>
+            </li>
+            <li>
+              <time datetime="2026-08-12">2026-08-12</time>
+              <span class="what"><b>ATOM</b> <span data-i18n="log.atom">Studio site moves to production with its own database and Telegram admin</span></span>
+              <span class="stamp is-done" data-i18n="st.shipped">Shipped</span>
+            </li>
+            <li>
+              <time datetime="2026-07-20">2026-07-20</time>
+              <span class="what"><b>Screen Scanner 1.0.2</b> <span data-i18n="log.scanner">$0.99 Pro unlock passes Store certification</span></span>
+              <span class="stamp is-live" data-i18n="st.published">Published</span>
+            </li>
+            <li>
+              <time datetime="2026-06-18">2026-06-18</time>
+              <span class="what"><b>ReadCat</b> <span data-i18n="log.readcat">Paid reader goes on sale on the Microsoft Store</span></span>
+              <span class="stamp is-live" data-i18n="st.published">Published</span>
+            </li>
+            <li>
+              <time datetime="2026-06-14">2026-06-14</time>
+              <span class="what"><b>Finance bot</b> <span data-i18n="log.finance">Deployed to Railway with a managed Postgres</span></span>
+              <span class="stamp is-done" data-i18n="st.shipped">Shipped</span>
+            </li>
+          </ol>
+        </figure>
+      </div>
+    </section>
+
+    <section id="work" class="work" aria-labelledby="work-title">
+      <h2 id="work-title" class="section-title" data-i18n="work.title">Work</h2>
+
+      <div class="group">
+        <h3 class="group-label" data-i18n="cat.store">Microsoft Store apps</h3>
+        <div class="group-items">
+          <article class="project has-shot">
+            <img src="assets/readcat.webp" width="1280" height="725" loading="lazy" alt="ReadCat showing a page of a novel in its clean reading mode" data-i18n-alt="alt.readcat">
+            <div class="project-text">
+              <header>
+                <h4>ReadCat</h4>
+                <p class="kind" data-i18n="p.readcat.kind">PDF and EPUB reader for Windows · $4.99</p>
+              </header>
+              <p data-i18n="p.readcat.desc">An offline reader for PDF, EPUB, DOCX, Markdown and TXT. No account, no ads, no telemetry. It remembers where you stopped in every file.</p>
+              <p class="hard"><span class="hard-label" data-i18n="hard">Hard part</span> <span data-i18n="p.readcat.hard">Zooming a PDF re-rendered the page on every wheel tick. I split it into an instant CSS preview plus one sharp render when the wheel settles, so zoom feels continuous.</span></p>
+              <ul class="stack"><li>Electron</li><li>React</li><li>pdf.js</li><li>epub.js</li><li>MSIX</li></ul>
+              <p class="links"><a href="https://apps.microsoft.com/detail/9NG2LJ5P0CH4" data-i18n="link.store">See it on the Microsoft Store</a></p>
+            </div>
+          </article>
+
+          <article class="project has-shot">
+            <img src="assets/screen-scanner.webp" width="1280" height="717" loading="lazy" alt="Screen Scanner with a snipped meeting note on the left and the extracted text on the right" data-i18n-alt="alt.scanner">
+            <div class="project-text">
+              <header>
+                <h4>Screen Scanner</h4>
+                <p class="kind" data-i18n="p.scanner.kind">Screen-to-text for Windows · Free, $0.99 Pro</p>
+              </header>
+              <p data-i18n="p.scanner.desc">Press Alt+C, drag over any part of the screen, and the text is on your clipboard. It runs the OCR built into Windows, fully offline.</p>
+              <p class="hard"><span class="hard-label" data-i18n="hard">Hard part</span> <span data-i18n="p.scanner.hard">Electron can’t reach the Windows OCR or Store purchase APIs on its own. I wrote a small C# helper that does both, and the app calls it for every scan and for the Pro unlock.</span></p>
+              <ul class="stack"><li>Electron</li><li>React</li><li>C# / WinRT</li><li>Store in-app purchase</li></ul>
+              <p class="links"><a href="https://apps.microsoft.com/detail/9NV8NWB1CLTB" data-i18n="link.store">See it on the Microsoft Store</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3 class="group-label" data-i18n="cat.web">Web</h3>
+        <div class="group-items">
+          <article class="project has-shot">
+            <img src="assets/atom.webp" width="1280" height="855" loading="lazy" alt="A modern house lit at dusk above a reflecting pool, from the ATOM studio site" data-i18n-alt="alt.atom">
+            <div class="project-text">
+              <header>
+                <h4>ATOM</h4>
+                <p class="kind" data-i18n="p.atom.kind">Website for a Tashkent architecture studio · Client work</p>
+              </header>
+              <p data-i18n="p.atom.desc">Project case studies, a renovation cost calculator and lead capture for a mid-market interior studio. The studio manages new leads from a Telegram panel.</p>
+              <p class="hard"><span class="hard-label" data-i18n="hard">Hard part</span> <span data-i18n="p.atom.hard">The opening shot flies the camera from a grey apartment block through one lit window into a finished room. Frames go straight to the DOM, and the heavy blur only runs on machines that can afford it.</span></p>
+              <ul class="stack"><li>Next.js 16</li><li>React 19</li><li>Tailwind 4</li><li>Neon Postgres</li><li>Vercel</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-text">
+              <header>
+                <h4>Blogy</h4>
+                <p class="kind" data-i18n="p.blogy.kind">Django blog · Course project</p>
+              </header>
+              <p data-i18n="p.blogy.desc">Turned a static Bootstrap template into a database-driven blog with authors, categories, search, pagination and an admin.</p>
+              <ul class="stack"><li>Django 6</li><li>SQLite</li><li>Bootstrap 5</li></ul>
+              <p class="links"><a href="https://github.com/UmarY14/exam" data-i18n="link.code">Read the code</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3 class="group-label" data-i18n="cat.bots">Telegram bots</h3>
+        <div class="group-items">
+          <article class="project">
+            <div class="project-text">
+              <header>
+                <h4>Imlo bot</h4>
+                <p class="kind" data-i18n="p.imlo.kind">Uzbek spelling and grammar checker · Live</p>
+              </header>
+              <p data-i18n="p.imlo.desc">Send it a message and get it back corrected. It can also rewrite the text in the new Latin alphabet the Senate approved in September 2026.</p>
+              <p class="hard"><span class="hard-label" data-i18n="hard">Hard part</span> <span data-i18n="p.imlo.hard">The free model tier fails about one call in five. The bot falls back through three models with backoff, so users rarely see an error.</span></p>
+              <ul class="stack"><li>Python</li><li>Gemini API</li><li>Vercel serverless</li></ul>
+              <p class="links"><a href="https://t.me/Imlo2026_bot" data-i18n="link.telegram">Open in Telegram</a><a href="https://github.com/yuldashevumar99-dot/imlo-bot" data-i18n="link.code">Read the code</a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-text">
+              <header>
+                <h4>Channel Planner</h4>
+                <p class="kind" data-i18n="p.navbat.kind">Scheduled posting for shop channels · In testing</p>
+              </header>
+              <p data-i18n="p.navbat.desc">Clothing shops in Uzbekistan sell through Telegram channels. Owners drop in their photos once, and the bot posts them on a schedule with the shop’s own caption.</p>
+              <p class="hard"><span class="hard-label" data-i18n="hard">Hard part</span> <span data-i18n="p.navbat.hard">The founder couldn’t finish setup on their phone. I replaced the settings screen with a three-step guided setup and moved optional fields out of the way.</span></p>
+              <ul class="stack"><li>Django 5</li><li>React</li><li>Telegram Mini Apps</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-text">
+              <header>
+                <h4 data-i18n="p.finance.name">Finance bot</h4>
+                <p class="kind" data-i18n="p.finance.kind">Personal finance tracker · Exam project</p>
+              </header>
+              <p data-i18n="p.finance.desc">Log income and expenses, set limits per category, and get monthly charts right in the chat.</p>
+              <ul class="stack"><li>Python</li><li>Aiogram 3</li><li>PostgreSQL</li><li>matplotlib</li></ul>
+              <p class="links"><a href="https://github.com/UmarY14/finance_bot" data-i18n="link.code">Read the code</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3 class="group-label" data-i18n="cat.security">Security</h3>
+        <div class="group-items">
+          <article class="project">
+            <div class="project-text">
+              <header>
+                <h4>Meridian</h4>
+                <p class="kind" data-i18n="p.meridian.kind">Vulnerable training machine · OSCP-medium</p>
+              </header>
+              <p data-i18n="p.meridian.desc">A fake IT helpdesk server with one realistic path from a leaked backup to root, plus a portal that starts a private copy for each student with their own flags.</p>
+              <p class="hard"><span class="hard-label" data-i18n="hard">Hard part</span> <span data-i18n="p.meridian.hard">One set of Ansible roles builds both the VM image and the Docker image. A solver script runs the whole chain on every build to prove it can still be beaten.</span></p>
+              <ul class="stack"><li>Ansible</li><li>Packer</li><li>Docker</li><li>FastAPI</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-text">
+              <header>
+                <h4 data-i18n="p.ddos.name">Rate-limit lab</h4>
+                <p class="kind" data-i18n="p.ddos.kind">Traffic flooding practice lab</p>
+              </header>
+              <p data-i18n="p.ddos.desc">A small server with a per-IP sliding-window limiter and a live dashboard that shows allowed and blocked requests while you flood it.</p>
+              <ul class="stack"><li data-i18n="p.ddos.node">Node.js, zero dependencies</li><li>Server-Sent Events</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume" aria-labelledby="resume-title">
+      <div class="resume-head">
+        <h2 id="resume-title" class="section-title" data-i18n="resume.title">Resume</h2>
+        <button type="button" class="btn" id="print-resume" data-i18n="resume.print">Save as PDF</button>
+      </div>
+
+      <div class="resume-print-name" aria-hidden="true">
+        <p class="rp-name">Umar Yuldashev</p>
+        <p>yuldashevumar99@gmail.com · linkedin.com/in/umaryuldashev · github.com/yuldashevumar99-dot · yuldashevumar99-dot.github.io</p>
+      </div>
+
+      <div class="resume-grid">
+        <div class="r-block">
+          <h3 data-i18n="r.about">About</h3>
+          <p data-i18n="r.about.text">I’m the kind of engineer who notices what’s broken, slow or unfinished and can’t leave it alone. I build products end to end on my own: the code, the packaging, the store listing and the fixes after real people use it. I’m looking for a fully remote role where that habit is useful.</p>
+        </div>
+
+        <div class="r-block">
+          <h3 data-i18n="r.edu">Education</h3>
+          <dl class="r-list">
+            <dt>Webster University</dt>
+            <dd><span data-i18n="r.edu.degree">B.S. in Computer Science</span> · 2025</dd>
+            <dd class="muted" data-i18n="r.edu.course">Data structures and algorithms, databases, artificial intelligence, operating systems, software engineering</dd>
+          </dl>
+        </div>
+
+        <div class="r-block r-wide print-only">
+          <h3 data-i18n="r.proj">Selected projects</h3>
+          <ul class="r-proj">
+            <li><b>ReadCat</b> <span data-i18n="r.proj.readcat">Paid PDF and EPUB reader for Windows, selling on the Microsoft Store. Electron, React, pdf.js.</span></li>
+            <li><b>Screen Scanner</b> <span data-i18n="r.proj.scanner">Offline screen OCR for Windows with a $0.99 in-app unlock. Electron, React, C# / WinRT.</span></li>
+            <li><b>ATOM</b> <span data-i18n="r.proj.atom">Website for a Tashkent architecture studio with a cost calculator and Telegram lead panel. Next.js, Neon Postgres.</span></li>
+            <li><b>Imlo bot</b> <span data-i18n="r.proj.imlo">Live Telegram bot that corrects Uzbek spelling and grammar. Python, Gemini API.</span></li>
+            <li><b>Channel Planner</b> <span data-i18n="r.proj.navbat">Scheduled posting bot and Mini App for shop channels. Django, React.</span></li>
+            <li><b>Meridian</b> <span data-i18n="r.proj.meridian">OSCP-medium training machine with a per-student spawner. Ansible, Packer, Docker, FastAPI.</span></li>
+          </ul>
+        </div>
+
+        <div class="r-block r-wide">
+          <h3 data-i18n="r.skills">Skills</h3>
+          <dl class="r-table">
+            <dt data-i18n="r.sk.lang">Languages</dt><dd>Python, JavaScript, TypeScript, C#, C, C++, SQL</dd>
+            <dt data-i18n="r.sk.front">Frontend</dt><dd>React, Next.js, Vite, Tailwind CSS</dd>
+            <dt data-i18n="r.sk.back">Backend</dt><dd>Django, FastAPI, Node.js, Aiogram, REST APIs</dd>
+            <dt data-i18n="r.sk.data">Data</dt><dd>PostgreSQL, Neon, SQLite</dd>
+            <dt data-i18n="r.sk.plat">Platforms</dt><dd data-i18n="r.sk.plat.v">Electron, MSIX and Microsoft Store, Telegram Bot API and Mini Apps</dd>
+            <dt data-i18n="r.sk.infra">Infrastructure</dt><dd>Vercel, Railway, Docker, Ansible, Packer, Git, Linux</dd>
+          </dl>
+        </div>
+
+        <div class="r-block">
+          <h3 data-i18n="r.spoken">Languages I speak</h3>
+          <dl class="r-table">
+            <dt data-i18n="r.en">English</dt><dd data-i18n="r.fluent">Fluent</dd>
+            <dt data-i18n="r.ru">Russian</dt><dd data-i18n="r.native">Native</dd>
+            <dt data-i18n="r.uz">Uzbek</dt><dd data-i18n="r.native">Native</dd>
+            <dt data-i18n="r.ar">Arabic</dt><dd data-i18n="r.conv">Conversational</dd>
+          </dl>
+        </div>
+
+        <div class="r-block">
+          <h3 data-i18n="r.looking">Looking for</h3>
+          <p data-i18n="r.looking.text">Full-time remote roles and internships, US time zones welcome. Based in Tashkent (UTC+5).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title" data-i18n="contact.title">Contact</h2>
+      <p class="contact-line" data-i18n="contact.line">Email is the fastest way to reach me.</p>
+      <a class="contact-email" href="mailto:yuldashevumar99@gmail.com">yuldashevumar99@gmail.com</a>
+      <ul class="contact-links">
+        <li><a href="https://www.linkedin.com/in/umaryuldashev">LinkedIn</a></li>
+        <li><a href="https://github.com/yuldashevumar99-dot">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© 2026 Umar Yuldashev</span>
+    <span data-i18n="foot">Plain HTML and CSS, hosted on GitHub Pages.</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
